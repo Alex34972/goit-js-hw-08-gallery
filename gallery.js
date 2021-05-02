@@ -28,10 +28,3 @@ const createGalleryElements = (arrGallery) => {
   });
 };
 createGalleryElements(gallery);
-
-galleryEl.addEventListener(`click`, onOpenModal);
-function onOpenModal() {
-  lightboxEl.classList.add(`is-open`);
-  imageEl.setAttribute("src", "gallery.original");
-}
-console.log(lightboxEl);

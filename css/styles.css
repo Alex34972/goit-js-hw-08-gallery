@@ -90,7 +90,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(194, 49, 85, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .lightbox__content {
